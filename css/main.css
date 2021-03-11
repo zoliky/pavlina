@@ -25,6 +25,10 @@ body {
   padding: 0;
 }
 
+p {
+  font-size: 1.25rem;
+}
+
 a {
   text-decoration: none;
 }
