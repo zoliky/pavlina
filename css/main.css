@@ -23,13 +23,13 @@
 body {
   margin: 0;
   padding: 0;
-  background: lightseagreen;
 }
 
 .header {
   position: relative;
   top: 0;
   height: 140px;
+  background: #921801;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -47,12 +47,6 @@ body {
 .logo img {
   width: 60px;
   height: 50px;
-}
-
-@media (min-width: 52em) {
-  body {
-    background: lightyellow;
-  }
 }
 
 /*# sourceMappingURL=main.css.map */

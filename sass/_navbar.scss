@@ -1,7 +1,10 @@
+$header-bg: #921801;
+
 .header {
   position: relative;
   top: 0;
   height: 140px;
+  background: $header-bg;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -24,6 +27,5 @@
 
 @media (min-width: 52em) {
   body {
-    background: lightyellow;
   }
 }
