@@ -3,3 +3,10 @@ $footer-bg: #921801;
 .footer {
   background: $footer-bg;
 }
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}

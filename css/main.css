@@ -154,4 +154,11 @@ a {
   background: #921801;
 }
 
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
+
 /*# sourceMappingURL=main.css.map */
