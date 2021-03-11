@@ -29,6 +29,16 @@ a {
   text-decoration: none;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container-inner {
+  flex-grow: 1;
+}
+
 .header {
   position: relative;
   top: 0;
@@ -139,6 +149,9 @@ a {
     border-top: initial;
     margin-left: 0.5em;
   }
+}
+.footer {
+  background: #921801;
 }
 
 /*# sourceMappingURL=main.css.map */
