@@ -4,3 +4,5 @@
 #+DATE: <2021-03-11 Thu>
 
 This project is work in progress.
+
+[[./screenshot.png]]
