@@ -26,6 +26,7 @@ body {
 }
 
 p {
+  line-height: 1.4;
   font-size: 1.25rem;
 }
 
@@ -46,6 +47,17 @@ a {
 .intro {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.screen-readers {
+  position: absolute;
+  padding: 0;
+  border: 0;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
 }
 
 .header {
