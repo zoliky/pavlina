@@ -142,6 +142,9 @@ a {
   padding: 0.8em 0.5em;
   text-transform: uppercase;
   color: #fff;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  font-family: "Quicksand", sans-serif;
 }
 
 @media (min-width: 52em) {
