@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/*! --------------------------------------------------------------------------
+             FILE: main.scss
+      DESCRIPTION: Main stylesheet
+           AUTHOR: Zoltán Király <zoliky@gmail.com>
+----------------------------------------------------------------------------*/
+:root {
+  font-size: 1em;
+  line-height: 1.15;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: lightseagreen;
+}
+
+/*# sourceMappingURL=main.css.map */
