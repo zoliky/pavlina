@@ -26,4 +26,10 @@ body {
   background: lightseagreen;
 }
 
+@media (min-width: 52em) {
+  body {
+    background: lightyellow;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
