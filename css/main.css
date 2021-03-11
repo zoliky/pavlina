@@ -60,6 +60,24 @@ a {
   clip: rect(0, 0, 0, 0);
 }
 
+.social {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.social > li + li {
+  margin-left: 0.8em;
+}
+
+.social > li > a {
+  display: block;
+  color: #fff;
+  font-size: 2.4rem;
+  text-decoration: none;
+}
+
 .header {
   position: relative;
   top: 0;
