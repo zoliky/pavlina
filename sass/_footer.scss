@@ -10,3 +10,36 @@ $footer-bg: #921801;
   color: #fff;
   text-align: center;
 }
+
+.social {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+
+  li + li {
+    margin-left: .8em;
+  }
+
+  li > a {
+    display: block;
+    color: #fff;
+    font-size: 2.4rem;
+    text-decoration: none;
+  }
+}
+
+.icon-facebook {
+  background: #fff;
+  color: blue;
+}
+
+.icon-youtube {
+  background: #fff;
+  color: red;
+}
+
+.icon-imdb {
+  background: #000;
+  color: yellow;
+}
