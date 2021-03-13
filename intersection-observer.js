@@ -21,7 +21,6 @@ const observer = new IntersectionObserver(function(entries, observer) {
     console.log(entry.isIntersecting);
 
     // Once observed, stop observing
-    // Some pages need this, some don't
     observer.unobserve(entry.target);
   });
 }, options);
