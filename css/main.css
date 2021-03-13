@@ -63,6 +63,17 @@ h1 {
   font-family: "Montserrat", sans-serif;
 }
 
+.dummytext {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.dummytext p {
+  line-height: 1.6;
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-family: acumin-pro, sans-serif;
+}
+
 .screen-readers {
   position: absolute;
   padding: 0;
@@ -75,11 +86,14 @@ h1 {
 }
 
 .header {
-  position: relative;
+  position: fixed;
   top: 0;
   height: 140px;
+  width: 100%;
+  z-index: 100;
   background: #921801;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  transition: top 0.3s linear 0s;
   display: flex;
   align-items: center;
 }
@@ -156,9 +170,9 @@ h1 {
   padding: 0.8em 0.5em;
   text-transform: uppercase;
   color: #fff;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.06em;
   font-weight: 500;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 @media (min-width: 52em) {
@@ -182,6 +196,7 @@ h1 {
   }
   .nav-menu li > a {
     color: #fff;
+    border-bottom: 4px solid #F29F05;
   }
   .nav-menu li + li {
     border-top: initial;
@@ -193,10 +208,14 @@ h1 {
 }
 
 .footer-container {
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
   color: #fff;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .social {

@@ -19,6 +19,7 @@ body {
   padding: 0;
   color: #746e76;
   background: #f6f2e7;
+  // background: #fff;
 }
 
 p {
@@ -55,6 +56,18 @@ h1 {
     font-size: 1.8rem;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
+  }
+}
+
+.dummytext {
+  max-width: 800px;
+  margin: 0 auto;
+
+  p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: acumin-pro, sans-serif;
   }
 }
 

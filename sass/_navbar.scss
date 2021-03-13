@@ -2,11 +2,14 @@ $header-bg: #921801;
 $menu-item-color: #fff;
 
 .header {
-  position: relative;
+  position: fixed;
   top: 0;
   height: 140px;
+  width: 100%;
+  z-index: 100;
   background: $header-bg;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  transition: top 0.3s linear 0s;
   display: flex;
   align-items: center;
 }
@@ -104,9 +107,9 @@ $menu-item-color: #fff;
     text-transform: uppercase;
     color: $menu-item-color;
 
-    letter-spacing: .05em;
+    letter-spacing: .06em;
     font-weight: 500;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
   }
 }
 
@@ -131,6 +134,7 @@ $menu-item-color: #fff;
 
     li > a {
       color: #fff;
+      border-bottom: 4px solid #F29F05;
     }
 
     li + li {
