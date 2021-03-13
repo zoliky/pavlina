@@ -37,6 +37,11 @@ h1 {
   margin-top: 3rem;
 }
 
+img {
+  max-width: 100%;
+  border-style: none;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -48,24 +53,13 @@ h1 {
 }
 
 .intro {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
+  // height: 100vh;
 
   p {
     line-height: 1.4;
     font-size: 1.8rem;
-    font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
-  }
-}
-
-.dummytext {
-  max-width: 800px;
-  margin: 0 auto;
-
-  p {
-    line-height: 1.6;
-    font-size: 1.1rem;
     font-weight: 400;
     font-family: acumin-pro, sans-serif;
   }
@@ -80,4 +74,34 @@ h1 {
   margin: -1px;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
+}
+
+.flex-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: acumin-pro, sans-serif;
+  }
+}
+
+.col-left {
+  flex: 40%;
+  // border: 1px solid green;
+}
+
+.col-right {
+  flex: 30%;
+  // border: 1px solid orange;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+
+.spacer {
+  margin-top: 200px;
 }
