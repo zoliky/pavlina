@@ -109,7 +109,7 @@ img {
 .header {
   position: fixed;
   top: 0;
-  height: 140px;
+  height: 150px;
   width: 100%;
   z-index: 100;
   background: #921801;
@@ -212,12 +212,15 @@ img {
     overflow: initial;
   }
 
+  .logo {
+    margin: 25px 0 5px;
+  }
+
   .nav-menu {
     display: flex;
   }
   .nav-menu li > a {
     color: #fff;
-    border-bottom: 4px solid #F29F05;
   }
   .nav-menu li + li {
     border-top: initial;
@@ -237,6 +240,11 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+}
+
+.footer-col-1 p {
+  font-size: 1.1rem;
+  font-family: "Raleway", sans-serif;
 }
 
 .social {

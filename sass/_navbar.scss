@@ -4,7 +4,7 @@ $menu-item-color: #fff;
 .header {
   position: fixed;
   top: 0;
-  height: 140px;
+  height: 150px;
   width: 100%;
   z-index: 100;
   background: $header-bg;
@@ -21,16 +21,9 @@ $menu-item-color: #fff;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  // border: 1px solid lightgreen;
 }
 
 .logo {
-  // border: 1px solid lightgreen;
-  // position: absolute;
-  // top: 50%;
-  // left: 50%;
-  // transform: translate(-50%, -50%);
-
   img {
     width: 60px;
     height: 50px;
@@ -39,7 +32,6 @@ $menu-item-color: #fff;
 
 // Hamburger
 .menu-toggle {
-  // border: 1px solid lightgreen;
   position: absolute;
   right: 10px;
   width: 40px;
@@ -90,7 +82,6 @@ $menu-item-color: #fff;
 }
 
 .nav-menu {
-  // border: 1px solid lightgreen;
   list-style: none;
   padding-left: 0;
   margin: 0;
@@ -129,12 +120,15 @@ $menu-item-color: #fff;
     overflow: initial;
   }
 
+  .logo {
+    margin: 25px 0 5px;
+  }
+
   .nav-menu {
     display: flex;
 
     li > a {
       color: #fff;
-      border-bottom: 4px solid #F29F05;
     }
 
     li + li {

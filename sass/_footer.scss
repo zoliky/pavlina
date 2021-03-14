@@ -16,7 +16,11 @@ $footer-bg: #921801;
 }
 
 .footer-col-1 {
-  // border: 1px solid lightgreen;
+  p {
+    font-size: 1.1rem;
+    // font-family: acumin-pro, sans-serif;
+    font-family: 'Raleway', sans-serif;
+  }
 }
 
 .footer-col-2 {
