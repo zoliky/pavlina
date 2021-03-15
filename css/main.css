@@ -316,19 +316,10 @@ img {
   flex: 100%;
 }
 
-form > div {
-  display: flex;
-  flex-flow: row wrap;
-  margin-bottom: 1em;
-}
-
-label {
-  flex: 0 0 4em;
-}
-
-input,
-textarea {
-  flex: 1 1 20em;
+.form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 15px;
 }
 
 input,
@@ -343,22 +334,54 @@ textarea {
 }
 
 textarea {
-  min-height: 200px;
+  min-height: 225px;
 }
 
 iframe {
   width: 100%;
 }
 
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 1.5em;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 0.25rem;
+  letter-spacing: 0.05em;
+  padding: 0.375em 0.75em;
+  font-family: inherit;
+  background-color: #2C6783;
+  border: 1px solid transparent;
+  transition: transform ease-in-out 250ms;
+  box-shadow: -4px 3px 8px -3px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1em;
+}
+
 @media (min-width: 52em) {
   .contact-col-1 {
     flex: 0 0 50%;
-    /* border: 1px solid green; */
+  }
+
+  .form {
+    grid-template-columns: 1fr 7fr;
+  }
+
+  .error {
+    grid-column: 2;
+  }
+
+  .submit {
+    grid-column: 2;
+    width: 180px;
   }
 
   .contact-col-2 {
     flex: 0 0 40%;
-    /* border: 1px solid orange; */
     margin-left: 1em;
   }
 }
