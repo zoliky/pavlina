@@ -81,6 +81,7 @@ img {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  padding: 0 10px;
 
   p {
     line-height: 1.6;
@@ -90,18 +91,20 @@ img {
   }
 }
 
-.col-left {
-  flex: 40%;
-  // border: 1px solid green;
-}
-
-.col-right {
-  flex: 30%;
-  // border: 1px solid orange;
-  padding-top: 30px;
-  padding-left: 40px;
-}
-
 .spacer {
   margin-top: 200px;
+}
+
+@media (min-width: 52em) {
+  .col-left {
+    flex: 40%;
+    // border: 1px solid green;
+  }
+  
+  .col-right {
+    flex: 30%;
+    // border: 1px solid orange;
+    padding-top: 30px;
+    padding-left: 40px;
+  }
 }

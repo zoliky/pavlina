@@ -18,9 +18,6 @@ const observer = new IntersectionObserver(function(entries, observer) {
 
     entry.target.classList.add("appear");
     
-    // console.log(entry.target);
-    // console.log(entry.isIntersecting);
-
     // Once observed, stop observing
     observer.unobserve(entry.target);
   });

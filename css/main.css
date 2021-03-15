@@ -84,6 +84,7 @@ img {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  padding: 0 10px;
 }
 .flex-container p {
   line-height: 1.6;
@@ -92,20 +93,21 @@ img {
   font-family: acumin-pro, sans-serif;
 }
 
-.col-left {
-  flex: 40%;
-}
-
-.col-right {
-  flex: 30%;
-  padding-top: 30px;
-  padding-left: 40px;
-}
-
 .spacer {
   margin-top: 200px;
 }
 
+@media (min-width: 52em) {
+  .col-left {
+    flex: 40%;
+  }
+
+  .col-right {
+    flex: 30%;
+    padding-top: 30px;
+    padding-left: 40px;
+  }
+}
 .header {
   position: fixed;
   top: 0;
