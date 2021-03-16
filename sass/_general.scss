@@ -18,12 +18,16 @@ body {
   margin: 0;
   padding: 0;
   color: #746e76;
-  background: #f6f2e7;
-  // background: #fff;
+  // background: #f6f2e7;
+  // background: #f6f2eb; ok
+  background: #f6f2ef;
+  // background: #fcf9f9;
+  font-family: acumin-pro, sans-serif;
 }
 
 p {
-  line-height: 1.4;
+  line-height: 1.6;
+  font-weight: 400;
   font-size: 1.25rem; // target size 20px / default 16px = 1.25rem
 }
 
@@ -55,14 +59,6 @@ img {
 .intro {
   max-width: 900px;
   margin: 0 auto;
-  // height: 100vh;
-
-  p {
-    line-height: 1.4;
-    font-size: 1.8rem;
-    font-weight: 400;
-    font-family: acumin-pro, sans-serif;
-  }
 }
 
 .screen-readers {

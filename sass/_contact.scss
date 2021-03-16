@@ -16,14 +16,16 @@
   grid-gap: 15px;
 }
 
+
 input,
 textarea {
   border: 1px solid #d3c691;
   border-radius: 0.3125em;
   color: #556b72;
-  font-size: 1.1rem;
+  font-size: 1rem;
   padding: 5px;
-  background: #f6f2e7;
+  // background: #f6f2e7;
+  background: #f6f2ef;
   font-family: inherit;
 }
 
@@ -49,7 +51,7 @@ iframe {
   letter-spacing: .05em;
   padding: .375em .75em;
   font-family: inherit;
-  background-color: #2C6783;
+  background-color: #921801;
   border: 1px solid transparent;
   transition: transform ease-in-out 250ms;
   box-shadow: -4px 3px 8px -3px rgba(0, 0, 0, .5);
