@@ -1,0 +1,23 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
