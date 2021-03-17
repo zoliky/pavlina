@@ -1,3 +1,6 @@
+// Copyright 2021 Zoltán Király. All rights reserved.
+
+/* Mobile */
 .contact-container {
   max-width: 1100px;
   margin: 0 auto;
@@ -58,6 +61,7 @@ iframe {
   margin-bottom: 1em;
 }
 
+/* iPad and Desktop 1080p+ */
 @media (min-width: 52em) {
   .contact-col-1 {
     flex: 0 0 50%;

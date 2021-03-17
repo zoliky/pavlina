@@ -1,3 +1,6 @@
+// Copyright 2021 Zoltán Király. All rights reserved.
+
+// Mobile First
 :root {
   font-size: 1em;
   line-height: 1.15;
@@ -98,6 +101,7 @@ img {
   margin-top: 200px;
 }
 
+// iPad and Desktop 1080p+
 @media (min-width: 52em) {
   .col-left {
     flex: 40%;
