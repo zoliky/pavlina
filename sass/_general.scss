@@ -29,7 +29,7 @@ body {
 }
 
 p {
-  line-height: 1.6;
+  line-height: 1.7;
   font-weight: 400;
   font-size: 1.05rem; // target size 20px / default 16px = 1.25rem
 }
@@ -42,6 +42,16 @@ h1 {
   text-align: center;
   font-size: 1.4rem;
   margin-top: 3rem;
+}
+
+h2 {
+  color: #921801;
+  font-size: 2.2rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+  color: #921801;
 }
 
 img {
