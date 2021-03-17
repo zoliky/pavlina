@@ -31,7 +31,7 @@ body {
 p {
   line-height: 1.6;
   font-weight: 400;
-  font-size: 1.25rem;
+  font-size: 1.05rem;
 }
 
 a {
@@ -249,7 +249,6 @@ img {
     margin-left: 0.5em;
   }
 }
-/* Mobile */
 .films {
   max-width: 1000px;
   margin: 0 auto;
@@ -287,7 +286,6 @@ img {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
 }
 
-/* iPad */
 @media screen and (min-width: 40em) {
   .films {
     max-width: 700px;
@@ -297,7 +295,6 @@ img {
     grid-template-columns: repeat(2, auto);
   }
 }
-/* Desktop 1080p+ */
 @media screen and (min-width: 70em) {
   .films {
     max-width: 1100px;
@@ -307,6 +304,35 @@ img {
     grid-template-columns: repeat(3, auto);
   }
 }
+.snowman {
+  padding: 0 10px;
+}
+
+.snowman-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+[class*=snow-col-] {
+  flex: 100%;
+}
+
+@media (min-width: 52em) {
+  .snow-col-1 {
+    flex: 0 0 55%;
+  }
+
+  .snow-col-2 {
+    flex: 0 0 40%;
+    margin-left: 10px;
+  }
+}
+/* Mobile First */
 .contact-container {
   max-width: 1100px;
   margin: 0 auto;
@@ -365,6 +391,7 @@ iframe {
   margin-bottom: 1em;
 }
 
+/* iPad & Desktop 1080p+ */
 @media (min-width: 52em) {
   .contact-col-1 {
     flex: 0 0 50%;
