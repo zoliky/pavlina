@@ -20,6 +20,14 @@
   box-sizing: inherit;
 }
 
+@font-face {
+  font-family: "IcoMoon";
+  src: url("../fonts/icomoon/icomoon_free.ttf") format("truetype");
+}
+i {
+  font-style: normal;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -29,9 +37,9 @@ body {
 }
 
 p {
-  line-height: 1.6;
+  line-height: 1.7;
   font-weight: 400;
-  font-size: 1.25rem;
+  font-size: 1.05rem;
 }
 
 a {
@@ -42,6 +50,16 @@ h1 {
   text-align: center;
   font-size: 1.4rem;
   margin-top: 3rem;
+}
+
+h2 {
+  color: #921801;
+  font-size: 2.2rem;
+  font-family: "Raleway", sans-serif;
+}
+
+h3 {
+  color: #921801;
 }
 
 img {
@@ -62,6 +80,12 @@ img {
 .intro {
   max-width: 900px;
   margin: 0 auto;
+}
+.intro p {
+  line-height: 1.6;
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-family: acumin-pro, sans-serif;
 }
 
 .screen-readers {
@@ -280,7 +304,6 @@ img {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
 }
 
-/* Tablet */
 @media screen and (min-width: 40em) {
   .films {
     max-width: 700px;
@@ -290,7 +313,6 @@ img {
     grid-template-columns: repeat(2, auto);
   }
 }
-/* Desktop */
 @media screen and (min-width: 70em) {
   .films {
     max-width: 1100px;
@@ -300,12 +322,52 @@ img {
     grid-template-columns: repeat(3, auto);
   }
 }
+.snowman {
+  padding: 0 10px;
+}
+
+.snowman-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+[class*=snow-col-] {
+  flex: 100%;
+}
+
+@media (min-width: 52em) {
+  .snow-col-1 {
+    flex: 0 0 55%;
+  }
+
+  .snow-col-2 {
+    flex: 0 0 40%;
+    margin-left: 10px;
+  }
+}
+/* Mobile First */
 .contact-container {
   max-width: 1100px;
   margin: 0 auto;
   padding: 10px;
   display: flex;
   flex-flow: row wrap;
+}
+.contact-container h3 {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.contact-container a {
+  color: inherit;
+}
+.contact-container p {
+  margin-bottom: 0;
+  margin-top: 8px;
 }
 
 [class*=contact-col] {
@@ -330,7 +392,7 @@ textarea {
 }
 
 textarea {
-  min-height: 225px;
+  min-height: 200px;
 }
 
 iframe {
@@ -358,6 +420,23 @@ iframe {
   margin-bottom: 1em;
 }
 
+.icon-location2:before {
+  font-family: "IcoMoon";
+  content: "";
+}
+
+.icon-phone:before {
+  font-family: "IcoMoon";
+  content: "";
+}
+
+.icon-skype:before {
+  font-family: "IcoMoon";
+  content: "";
+  margin-left: 5px;
+}
+
+/* iPad & Desktop 1080p+ */
 @media (min-width: 52em) {
   .contact-col-1 {
     flex: 0 0 50%;
