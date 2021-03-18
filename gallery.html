@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/hbv1pdp.css">
+  <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="intersection-observer.css">
+  <link rel="stylesheet" href="static/photoswipe/photoswipe.css">
+  <link rel="stylesheet" href="static/photoswipe/default-skin/default-skin.css">
+  <title>Gallery</title>
+</head>
+<body>
+  <div class="container">
+    <div class="container-inner">
+      <header class="header">
+        <div class="header-container">
+    
+          <!-- Site logo -->
+          <div class="logo">
+            <a href="#">
+              <img src="static/logo.png" alt="logo">
+            </a>
+          </div> <!-- / .logo -->
+          
+          <!-- Site navigation -->
+          <nav class="nav">
+            <div class="menu-toggle">
+              <div class="hamburger"></div>
+            </div> <!-- / .menu-toggle -->
+    
+            <div class="menu-dropdown">
+              <ul class="nav-menu">
+                <li><a href="index.html">About</a></li>
+                <li><a href="films.html">Finished Films</a></li>
+                <li><a href="films.html">Films in Production</a></li>
+                <li><a href="gallery.html" class="active">Photo Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div> <!-- / .menu-dropdown -->
+          </nav>
+        </div> <!-- / .header-container -->
+      </header>
+      
+      <div class="spacer"></div>
+      
+      <section class="gallery">
+        <div class="gallery-container">
+          
+          <h2>The Promise of Perfume</h2>
+          
+          <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="static/gallery/provence-full.jpg" itemprop="contentUrl" data-size="800x532">
+                <img src="static/gallery/provence-thumbnail.jpg" itemprop="thumbnail" alt="Image description" />
+              </a>
+            </figure>
+      
+          <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+            <a href="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" itemprop="contentUrl" data-size="964x1024">
+                <img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_m.jpg" itemprop="thumbnail" alt="Image description" />
+            </a>
+            <figcaption itemprop="caption description">Image caption 2</figcaption>
+          </figure>
+      
+          <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+            <a href="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_b.jpg" itemprop="contentUrl" data-size="1024x683">
+                <img src="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_m.jpg" itemprop="thumbnail" alt="Image description" />
+            </a>
+            <figcaption itemprop="caption description">Image caption 3</figcaption>
+          </figure>
+      
+          <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+            <a href="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_b.jpg" itemprop="contentUrl" data-size="1024x768">
+                <img src="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_m.jpg" itemprop="thumbnail" alt="Image description" />
+            </a>
+            <figcaption itemprop="caption description">Image caption 4</figcaption>
+          </figure>
+      
+      
+        </div>
+      
+      <h2>Second gallery:</h2>
+      
+        <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+      
+        
+      
+          <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+            <a href="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" itemprop="contentUrl" data-size="964x1024">
+                <img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_m.jpg" itemprop="thumbnail" alt="Image description" />
+            </a>
+            <figcaption itemprop="caption description">Image caption 2.1</figcaption>
+          </figure>
+      
+          <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+            <a href="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_b.jpg" itemprop="contentUrl" data-size="1024x683">
+                <img src="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_m.jpg" itemprop="thumbnail" alt="Image description" />
+            </a>
+            <figcaption itemprop="caption description">Image caption 2.2</figcaption>
+          </figure>
+      
+          <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+            <a href="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_b.jpg" itemprop="contentUrl" data-size="1024x768">
+                <img src="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_m.jpg" itemprop="thumbnail" alt="Image description" />
+            </a>
+            <figcaption itemprop="caption description">Image caption 2.3</figcaption>
+          </figure>
+      
+      
+        </div>
+      
+      
+      
+      <!-- Root element of PhotoSwipe. Must have class pswp. -->
+      <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+      
+          <!-- Background of PhotoSwipe. 
+               It's a separate element, as animating opacity is faster than rgba(). -->
+          <div class="pswp__bg"></div>
+      
+          <!-- Slides wrapper with overflow:hidden. -->
+          <div class="pswp__scroll-wrap">
+      
+              <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+              <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+              <div class="pswp__container">
+                  <div class="pswp__item"></div>
+                  <div class="pswp__item"></div>
+                  <div class="pswp__item"></div>
+              </div>
+      
+              <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+              <div class="pswp__ui pswp__ui--hidden">
+      
+                  <div class="pswp__top-bar">
+      
+                      <!--  Controls are self-explanatory. Order can be changed. -->
+      
+                      <div class="pswp__counter"></div>
+      
+                      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      
+                      <button class="pswp__button pswp__button--share" title="Share"></button>
+      
+                      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      
+                      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+                      <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                      <!-- element will get class pswp__preloader--active when preloader is running -->
+                      <div class="pswp__preloader">
+                          <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                              <div class="pswp__preloader__donut"></div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                      <div class="pswp__share-tooltip"></div> 
+                  </div>
+      
+                  <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                  </button>
+      
+                  <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                  </button>
+      
+                  <div class="pswp__caption">
+                      <div class="pswp__caption__center"></div>
+                  </div>
+      
+                </div>
+      
+              </div>
+      
+      </div>
+        </div> <!-- / .gallery-container -->
+      </section> <!-- / .gallery -->
+    </div> <!-- / .container-inner -->
+
+    <footer class="footer">
+      <div class="footer-container">
+
+        <div class="footer-col-1">
+          <p>Copyright 2021 Pavlina Ltd. All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-col-2">
+          <ul class="social">
+            <li>
+              <a href="#" target="_blank" rel="noopener" aria-label="Facebook">
+                <i class="icon-facebook fab fa-facebook-square" aria-hidden="true" title="Facebook"></i>
+                <span class="screen-readers">Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener" aria-label="YouTube">
+                <i class="icon-youtube fab fa-youtube-square" aria-hidden="true" title="YouTube"></i>
+                <span class="screen-readers">YouTube</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener" aria-label="Likedin">
+                <i class="icon-linkedin fab fa-linkedin" aria-hidden="true" title="Linkedin"></i>
+                <span class="screen-readers">Linkedin</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener" aria-label="Vimeo">
+                <i class="icon-vimeo fab fa-vimeo-square" aria-hidden="true" title="Vimeo"></i>
+                <span class="screen-readers">Vimeo</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener" aria-label="Twitter">
+                <i class="icon-twitter fab fa-twitter-square" aria-hidden="true" title="Twitter"></i>
+                <span class="screen-readers">Twitter</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener" aria-label="IMDB">
+                <i class="icon-imdb fab fa-imdb" aria-hidden="true" title="IMDB"></i>
+                <span class="screen-readers">IMDB</span>
+              </a>
+            </li>
+          </ul>
+        </div> <!-- / .footer-col-2 -->
+      </div> <!-- / .footer-container -->
+    </footer>
+    
+  </div> <!-- / .container -->
+
+  <script src="js/main.js"></script>
+  <script src="intersection-observer.js"></script>
+  
+  <script src="static/photoswipe/photoswipe.min.js"></script>
+  <script src="static/photoswipe/photoswipe-ui-default.min.js"></script>
+  <script>
+    var initPhotoSwipeFromDOM = function(gallerySelector) {
+
+      // parse slide data (url, title, size ...) from DOM elements 
+      // (children of gallerySelector)
+      var parseThumbnailElements = function(el) {
+          var thumbElements = el.childNodes,
+              numNodes = thumbElements.length,
+              items = [],
+              figureEl,
+              linkEl,
+              size,
+              item;
+  
+          for(var i = 0; i < numNodes; i++) {
+  
+              figureEl = thumbElements[i]; // <figure> element
+  
+              // include only element nodes 
+              if(figureEl.nodeType !== 1) {
+                  continue;
+              }
+  
+              linkEl = figureEl.children[0]; // <a> element
+  
+              size = linkEl.getAttribute('data-size').split('x');
+  
+              // create slide object
+              item = {
+                  src: linkEl.getAttribute('href'),
+                  w: parseInt(size[0], 10),
+                  h: parseInt(size[1], 10)
+              };
+  
+  
+  
+              if(figureEl.children.length > 1) {
+                  // <figcaption> content
+                  item.title = figureEl.children[1].innerHTML; 
+              }
+  
+              if(linkEl.children.length > 0) {
+                  // <img> thumbnail element, retrieving thumbnail url
+                  item.msrc = linkEl.children[0].getAttribute('src');
+              } 
+  
+              item.el = figureEl; // save link to element for getThumbBoundsFn
+              items.push(item);
+          }
+  
+          return items;
+      };
+  
+      // find nearest parent element
+      var closest = function closest(el, fn) {
+          return el && ( fn(el) ? el : closest(el.parentNode, fn) );
+      };
+  
+      // triggers when user clicks on thumbnail
+      var onThumbnailsClick = function(e) {
+          e = e || window.event;
+          e.preventDefault ? e.preventDefault() : e.returnValue = false;
+  
+          var eTarget = e.target || e.srcElement;
+  
+          // find root element of slide
+          var clickedListItem = closest(eTarget, function(el) {
+              return (el.tagName && el.tagName.toUpperCase() === 'FIGURE');
+          });
+  
+          if(!clickedListItem) {
+              return;
+          }
+  
+          // find index of clicked item by looping through all child nodes
+          // alternatively, you may define index via data- attribute
+          var clickedGallery = clickedListItem.parentNode,
+              childNodes = clickedListItem.parentNode.childNodes,
+              numChildNodes = childNodes.length,
+              nodeIndex = 0,
+              index;
+  
+          for (var i = 0; i < numChildNodes; i++) {
+              if(childNodes[i].nodeType !== 1) { 
+                  continue; 
+              }
+  
+              if(childNodes[i] === clickedListItem) {
+                  index = nodeIndex;
+                  break;
+              }
+              nodeIndex++;
+          }
+  
+  
+  
+          if(index >= 0) {
+              // open PhotoSwipe if valid index found
+              openPhotoSwipe( index, clickedGallery );
+          }
+          return false;
+      };
+  
+      // parse picture index and gallery index from URL (#&pid=1&gid=2)
+      var photoswipeParseHash = function() {
+          var hash = window.location.hash.substring(1),
+          params = {};
+  
+          if(hash.length < 5) {
+              return params;
+          }
+  
+          var vars = hash.split('&');
+          for (var i = 0; i < vars.length; i++) {
+              if(!vars[i]) {
+                  continue;
+              }
+              var pair = vars[i].split('=');  
+              if(pair.length < 2) {
+                  continue;
+              }           
+              params[pair[0]] = pair[1];
+          }
+  
+          if(params.gid) {
+              params.gid = parseInt(params.gid, 10);
+          }
+  
+          return params;
+      };
+  
+      var openPhotoSwipe = function(index, galleryElement, disableAnimation, fromURL) {
+          var pswpElement = document.querySelectorAll('.pswp')[0],
+              gallery,
+              options,
+              items;
+  
+          items = parseThumbnailElements(galleryElement);
+  
+          // define options (if needed)
+          options = {
+  
+              // define gallery index (for URL)
+              galleryUID: galleryElement.getAttribute('data-pswp-uid'),
+  
+              getThumbBoundsFn: function(index) {
+                  // See Options -> getThumbBoundsFn section of documentation for more info
+                  var thumbnail = items[index].el.getElementsByTagName('img')[0], // find thumbnail
+                      pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
+                      rect = thumbnail.getBoundingClientRect(); 
+  
+                  return {x:rect.left, y:rect.top + pageYScroll, w:rect.width};
+              }
+  
+          };
+  
+          // PhotoSwipe opened from URL
+          if(fromURL) {
+              if(options.galleryPIDs) {
+                  // parse real index when custom PIDs are used 
+                  // http://photoswipe.com/documentation/faq.html#custom-pid-in-url
+                  for(var j = 0; j < items.length; j++) {
+                      if(items[j].pid == index) {
+                          options.index = j;
+                          break;
+                      }
+                  }
+              } else {
+                  // in URL indexes start from 1
+                  options.index = parseInt(index, 10) - 1;
+              }
+          } else {
+              options.index = parseInt(index, 10);
+          }
+  
+          // exit if index not found
+          if( isNaN(options.index) ) {
+              return;
+          }
+  
+          if(disableAnimation) {
+              options.showAnimationDuration = 0;
+          }
+  
+          // Pass data to PhotoSwipe and initialize it
+          gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+          gallery.init();
+      };
+  
+      // loop through all gallery elements and bind events
+      var galleryElements = document.querySelectorAll( gallerySelector );
+  
+      for(var i = 0, l = galleryElements.length; i < l; i++) {
+          galleryElements[i].setAttribute('data-pswp-uid', i+1);
+          galleryElements[i].onclick = onThumbnailsClick;
+      }
+  
+      // Parse URL and open gallery if it contains #&pid=3&gid=1
+      var hashData = photoswipeParseHash();
+      if(hashData.pid && hashData.gid) {
+          openPhotoSwipe( hashData.pid ,  galleryElements[ hashData.gid - 1 ], true, true );
+      }
+  };
+  
+  // execute above function
+  initPhotoSwipeFromDOM('.my-gallery');
+  </script>
+  <!-- <script src="static/photoswipe/initphotoswipe.js"></script> -->
+</body>
+</html>
