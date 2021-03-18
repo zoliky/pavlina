@@ -1,3 +1,6 @@
+// Copyright 2021 Zoltán Király. All rights reserved.
+
+// Mobile First
 :root {
   font-size: 1em;
   line-height: 1.15;
@@ -14,6 +17,15 @@
           box-sizing: inherit;
 }
 
+@font-face {
+  font-family: "IcoMoon";
+  src: url("../fonts/icomoon/icomoon_free.ttf") format("truetype");
+}
+
+i {
+  font-style: normal;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -26,9 +38,9 @@ body {
 }
 
 p {
-  line-height: 1.6;
+  line-height: 1.7;
   font-weight: 400;
-  font-size: 1.25rem; // target size 20px / default 16px = 1.25rem
+  font-size: 1.05rem; // target size 20px / default 16px = 1.25rem
 }
 
 a {
@@ -39,6 +51,16 @@ h1 {
   text-align: center;
   font-size: 1.4rem;
   margin-top: 3rem;
+}
+
+h2 {
+  color: #921801;
+  font-size: 2.2rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+  color: #921801;
 }
 
 img {
@@ -59,6 +81,13 @@ img {
 .intro {
   max-width: 900px;
   margin: 0 auto;
+
+  p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: acumin-pro, sans-serif;
+  }
 }
 
 .screen-readers {
@@ -91,6 +120,7 @@ img {
   margin-top: 200px;
 }
 
+// iPad & Desktop 1080p+
 @media (min-width: 52em) {
   .col-left {
     flex: 40%;

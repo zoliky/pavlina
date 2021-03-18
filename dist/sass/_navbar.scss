@@ -1,3 +1,6 @@
+// Copyright 2021 Zoltán Király. All rights reserved.
+
+// Mobile First
 $header-bg: #921801;
 $menu-item-color: #fff;
 
@@ -30,7 +33,7 @@ $menu-item-color: #fff;
   }
 }
 
-// Hamburger
+// Hamburger Navigation for Mobile
 .menu-toggle {
   position: absolute;
   right: 10px;
@@ -125,6 +128,7 @@ $menu-item-color: #fff;
   }
 }
 
+// iPad & Desktop 1080p+
 @media (min-width: 52em) {
   .header-container {
     display: flex;
