@@ -17,6 +17,15 @@
           box-sizing: inherit;
 }
 
+@font-face {
+  font-family: "IcoMoon";
+  src: url("../fonts/icomoon/icomoon_free.ttf") format("truetype");
+}
+
+i {
+  font-style: normal;
+}
+
 body {
   margin: 0;
   padding: 0;

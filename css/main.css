@@ -20,6 +20,14 @@
   box-sizing: inherit;
 }
 
+@font-face {
+  font-family: "IcoMoon";
+  src: url("../fonts/icomoon/icomoon_free.ttf") format("truetype");
+}
+i {
+  font-style: normal;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -350,6 +358,17 @@ img {
   display: flex;
   flex-flow: row wrap;
 }
+.contact-container h3 {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.contact-container a {
+  color: inherit;
+}
+.contact-container p {
+  margin-bottom: 0;
+  margin-top: 5px;
+}
 
 [class*=contact-col] {
   flex: 100%;
@@ -373,7 +392,7 @@ textarea {
 }
 
 textarea {
-  min-height: 225px;
+  min-height: 200px;
 }
 
 iframe {
@@ -399,6 +418,22 @@ iframe {
   transition: transform ease-in-out 250ms;
   box-shadow: -4px 3px 8px -3px rgba(0, 0, 0, 0.5);
   margin-bottom: 1em;
+}
+
+.icon-location2:before {
+  font-family: "IcoMoon";
+  content: "";
+}
+
+.icon-phone:before {
+  font-family: "IcoMoon";
+  content: "";
+}
+
+.icon-skype:before {
+  font-family: "IcoMoon";
+  content: "";
+  margin-left: 5px;
 }
 
 /* iPad & Desktop 1080p+ */
