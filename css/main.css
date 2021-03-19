@@ -354,11 +354,15 @@ img {
   max-width: 1000px;
   margin: 0 auto;
 }
+.gallery-container h2 {
+  font-size: 1.4rem;
+  text-align: center;
+}
 
 .my-gallery {
   width: 100%;
   display: block;
-  margin: 0 auto;
+  margin: 2em auto 4em;
 }
 
 figure {
