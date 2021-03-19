@@ -359,6 +359,10 @@ img {
   text-align: center;
 }
 
+.gallery {
+  margin: 0 auto;
+}
+
 .my-gallery {
   width: 100%;
   display: block;
@@ -367,7 +371,7 @@ img {
 
 figure {
   display: inline-block;
-  margin: 0 0.5em;
+  margin: 0 0.5em 1em;
   width: auto;
 }
 figure img {
@@ -396,7 +400,7 @@ figure img {
 @media (min-width: 75em) {
   .my-gallery {
     column-count: 1;
-    column-gap: 1rem;
+    column-gap: 1em;
   }
 }
 /* Mobile First */

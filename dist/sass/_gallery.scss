@@ -9,6 +9,10 @@
   }
 }
 
+.gallery {
+  margin: 0 auto;
+}
+
 .my-gallery {
   width: 100%;
   display: block;
@@ -17,7 +21,7 @@
 
 figure {
   display: inline-block;
-  margin: 0 .5em;
+  margin: 0 .5em 1em;
   // width: 138px;
   width: auto;
 
@@ -51,7 +55,7 @@ figure {
 @media (min-width : 75em) {
   .my-gallery {
     column-count: 1;
-    column-gap: 1rem;
+    column-gap: 1em;
     // width: 100%;
   }
 }
