@@ -144,15 +144,21 @@ img {
 .header-container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.header-inner {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
+.logo {
+  margin-right: 10em;
+}
 .logo img {
   width: 60px;
-  height: 50px;
+  height: 40px;
 }
 
 .menu-toggle {
