@@ -144,6 +144,10 @@ img {
 .header-container {
   max-width: 1200px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-inner {
@@ -281,7 +285,6 @@ img {
 .films-container {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: auto;
   grid-gap: 10px;
   padding: 10px;
 }
@@ -292,8 +295,8 @@ img {
 }
 
 .film-item img {
-  width: 100%;
-  height: 100%;
+  width: 600px;
+  height: 500px;
   display: block;
 }
 
@@ -537,6 +540,11 @@ iframe {
 .footer-col-1 p {
   font-size: 1.1rem;
   font-family: "Raleway", sans-serif;
+}
+
+.footer-col-2 {
+  text-align: center;
+  border: 1px solid lightgreen;
 }
 
 .social {
