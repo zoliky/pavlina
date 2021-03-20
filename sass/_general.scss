@@ -31,9 +31,7 @@ body {
   padding: 0;
   color: #746e76;
   // background: #f6f2e7;
-  // background: #f6f2eb; ok
   background: #f6f2ef;
-  // background: #fcf9f9;
   font-family: acumin-pro, sans-serif;
 }
 
@@ -116,12 +114,12 @@ img {
   }
 }
 
-.spacer {
-  margin-top: 200px;
-}
-
 // iPad & Desktop 1080p+
 @media (min-width: 52em) {
+  .spacer {
+    margin-top: 200px;
+  }
+  
   .col-left {
     flex: 40%;
     // border: 1px solid green;

@@ -113,11 +113,11 @@ img {
   font-family: acumin-pro, sans-serif;
 }
 
-.spacer {
-  margin-top: 200px;
-}
-
 @media (min-width: 52em) {
+  .spacer {
+    margin-top: 200px;
+  }
+
   .col-left {
     flex: 40%;
   }
@@ -129,8 +129,7 @@ img {
   }
 }
 .header {
-  position: fixed;
-  top: 0;
+  position: relative;
   height: 150px;
   width: 100%;
   z-index: 100;
@@ -247,6 +246,11 @@ img {
 }
 
 @media (min-width: 52em) {
+  .header {
+    position: fixed;
+    top: 0;
+  }
+
   .header-container {
     display: flex;
     flex-direction: column;

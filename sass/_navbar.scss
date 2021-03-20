@@ -5,8 +5,7 @@ $header-bg: #921801;
 $menu-item-color: #fff;
 
 .header {
-  position: fixed;
-  top: 0;
+  position: relative;
   height: 150px;
   width: 100%;
   z-index: 100;
@@ -21,11 +20,6 @@ $menu-item-color: #fff;
   // border: 1px solid green;
   max-width: 1200px;
   margin: 0 auto;
-
-  // align-items: center;
-  // align-items: center;
-  // justify-content: space-between;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -43,8 +37,6 @@ $menu-item-color: #fff;
   margin-right: 10em;
 
   img {
-    // width: 243px;
-    // height: 60px;
     width: 60px;
     height: 40px;
   }
@@ -147,6 +139,11 @@ $menu-item-color: #fff;
 
 // iPad & Desktop 1080p+
 @media (min-width: 52em) {
+  .header {
+    position: fixed;
+    top: 0;
+  }
+
   .header-container {
     display: flex;
     flex-direction: column;
