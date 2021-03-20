@@ -5,8 +5,9 @@
 
 This project is work in progress.
 
+** Media Queries
+
 #+begin_src css
-/*Media Quiries*/
     /*
       ##Device = Desktops
       ##Screen = 1281px to higher resolution desktops
