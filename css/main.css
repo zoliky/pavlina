@@ -355,12 +355,13 @@ figcaption {
 }
 
 .film-item img {
-  width: 600px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
   display: block;
 }
 
 .film-item-inner {
+  height: 100%;
   cursor: pointer;
   transform: translateZ(-40px);
   transform-style: preserve-3d;
@@ -600,7 +601,8 @@ iframe {
 
 .footer-col-1 p {
   font-size: 1.1rem;
-  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.02em;
+  font-weight: 400;
 }
 
 .social {
