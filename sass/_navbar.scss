@@ -84,14 +84,31 @@ $menu-item-color: #fff;
   }
 }
 
+// Hamburger animation
+.nav.is-open .hamburger {
+  background: rgba(0, 0, 0, 0);
+  
+  &::before {
+    top: 0;
+    transform: rotate(45deg);
+  }
+  
+  &::after {
+    top: 0;
+    transform: rotate(135deg);
+  }
+}
+
+// Menu dropdown
 .menu-dropdown {
   position: absolute;
   top: 100%;
   left: 0;
   height: 0;
   width: 100%;
-  background: #921801;
   overflow: hidden;
+  background: #921801;
+  transition: height 0.3s ease-out;
 }
 
 .nav-menu {
