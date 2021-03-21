@@ -20,10 +20,12 @@ $menu-item-color: #fff;
   // border: 1px solid green;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 10px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .header-inner {
@@ -34,7 +36,6 @@ $menu-item-color: #fff;
 }
 
 .logo {
-  margin-right: 10em;
 
   img {
     width: 60px;
@@ -129,12 +130,6 @@ $menu-item-color: #fff;
     background: #F39423;
     transition: all .35s;
   }
-
-  li > a.active::after,
-  li > a:hover::after {
-    opacity: 1;
-    bottom: 8px;
-  }
 }
 
 // iPad & Desktop 1080p+
@@ -173,6 +168,12 @@ $menu-item-color: #fff;
     li + li {
       border-top: initial;
       margin-left: .5em;
+    }
+
+    li > a.active::after,
+    li > a:hover::after {
+      opacity: 1;
+      bottom: 8px;
     }
   }
 }
