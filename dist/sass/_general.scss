@@ -31,9 +31,7 @@ body {
   padding: 0;
   color: #746e76;
   // background: #f6f2e7;
-  // background: #f6f2eb; ok
   background: #f6f2ef;
-  // background: #fcf9f9;
   font-family: acumin-pro, sans-serif;
 }
 
@@ -78,16 +76,65 @@ img {
   flex-grow: 1;
 }
 
+.main {
+  padding: 0 10px;
+}
+
 .intro {
   max-width: 900px;
   margin: 0 auto;
 
   p {
     line-height: 1.6;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
+    text-align: center;
     font-weight: 400;
     font-family: acumin-pro, sans-serif;
   }
+}
+
+.quote {
+  // border-top: 6px solid #A3E2C7;
+  // border-bottom: 6px solid #A3E2C7;
+  // border: 6px dotted #8bc9ae;
+
+  padding: 1em;
+  // border-radius: .5em;
+}
+
+blockquote {
+	font-weight: 100;
+	font-size: 2rem;
+	line-height: 1.4;
+	position: relative;
+	margin: 0;
+	padding: .5rem;
+}
+
+blockquote:before,
+blockquote:after {
+	position: absolute;
+	color: #8bc9ae;
+	font-size: 8rem;
+	width: 4rem;
+	height: 4rem;
+}
+
+blockquote:before {
+	content: '“';
+	left: -5rem;
+	top: -2rem;
+}
+
+blockquote:after {
+	content: '”';
+	right: -5rem;
+	bottom: 1rem;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 1.3rem;
 }
 
 .screen-readers {
@@ -116,12 +163,12 @@ img {
   }
 }
 
-.spacer {
-  margin-top: 200px;
-}
-
 // iPad & Desktop 1080p+
 @media (min-width: 52em) {
+  .spacer {
+    margin-top: 200px;
+  }
+  
   .col-left {
     flex: 40%;
     // border: 1px solid green;

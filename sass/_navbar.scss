@@ -37,11 +37,8 @@ $menu-item-color: #fff;
 
 .logo {
   img {
-    width: 60px;
-    height: 40px;
-
-    // width: 243px;
-    // height: 60px;
+    width: 290px;
+    height: 44px;
   }
 }
 
@@ -153,6 +150,13 @@ $menu-item-color: #fff;
 
 // iPad & Desktop 1080p+
 @media (min-width: 52em) {
+  .logo {
+    img {
+      width: 336px;
+      height: 47px;
+    }
+  }
+
   .header {
     position: fixed;
     top: 0;
@@ -179,6 +183,7 @@ $menu-item-color: #fff;
 
   .nav-menu {
     display: flex;
+    white-space: nowrap;
 
     li > a {
       color: #fff;
