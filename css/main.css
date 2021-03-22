@@ -95,6 +95,10 @@ blockquote {
   padding-left: 0.4em;
 }
 
+blockquote cite {
+  text-align: center;
+}
+
 blockquote p {
   line-height: 1.6;
   font-size: 1.5rem;
@@ -346,6 +350,7 @@ blockquote p::after {
 
 .films-container h2 {
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .films-grid {
