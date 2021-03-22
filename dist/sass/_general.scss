@@ -87,8 +87,6 @@ img {
 }
 
 
-
-
 blockquote {
   border: none;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -96,7 +94,6 @@ blockquote {
   position: relative;
   margin: 0 auto;
   padding-left: 0.4em;
-  //quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
 blockquote p {
@@ -129,8 +126,6 @@ blockquote p::after {
   right: 0.5em; 
   font-family: 'Georgia'; 
 }
-
-
 
   
 .screen-readers {

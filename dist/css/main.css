@@ -344,7 +344,11 @@ blockquote p::after {
   margin: 0 auto;
 }
 
-.films-container {
+.films-container h2 {
+  text-align: center;
+}
+
+.films-grid {
   display: grid;
   grid-template-columns: auto;
   grid-gap: 10px;
@@ -381,7 +385,7 @@ blockquote p::after {
     max-width: 700px;
   }
 
-  .films-container {
+  .films-grid {
     grid-template-columns: repeat(2, auto);
   }
 }
@@ -390,7 +394,7 @@ blockquote p::after {
     max-width: 1100px;
   }
 
-  .films-container {
+  .films-grid {
     grid-template-columns: repeat(3, auto);
   }
 }
