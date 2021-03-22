@@ -427,7 +427,14 @@ blockquote p::after {
   margin: 0 auto;
 }
 .gallery-container h2 {
-  font-size: 1.4rem;
+  font-size: 2.3rem;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 1.6em;
+}
+.gallery-container h3 {
+  font-size: 1.3rem;
+  font-weight: normal;
   text-align: center;
 }
 
@@ -438,7 +445,7 @@ blockquote p::after {
 .my-gallery {
   width: 100%;
   display: block;
-  margin: 2em auto 4em;
+  margin: 2em 1.8em 4em;
 }
 
 figure {
@@ -479,9 +486,11 @@ figure img {
 .contact-container {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 10px;
-  display: flex;
-  flex-flow: row wrap;
+}
+.contact-container h2 {
+  font-size: 2.3rem;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .contact-container h3 {
   font-size: 1.6rem;
@@ -493,6 +502,12 @@ figure img {
 .contact-container p {
   margin-bottom: 0;
   margin-top: 8px;
+}
+
+.contact-inner {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 50px;
 }
 
 [class*=contact-col] {
