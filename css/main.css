@@ -86,6 +86,12 @@ img {
   margin: 0 auto;
 }
 
+.social-icons {
+  position: absolute;
+  top: 50px;
+  left: 150px;
+}
+
 blockquote {
   border: none;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -189,6 +195,7 @@ blockquote p::after {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .header-inner {
@@ -299,7 +306,7 @@ blockquote p::after {
 @media (min-width: 52em) {
   .logo img {
     width: 336px;
-    height: 47px;
+    height: 53px;
   }
 
   .header {
@@ -645,6 +652,30 @@ iframe {
   color: #fff;
   font-size: 2.4rem;
   text-decoration: none;
+}
+
+.icon-facebook {
+  display: block;
+  width: 40px;
+  height: 38px;
+  background-image: url("../static/facebook.svg");
+  background-size: 41px 38px;
+}
+
+.icon-youtube {
+  display: block;
+  width: 40px;
+  height: 39px;
+  background-image: url("../static/youtube.svg");
+  background-size: 40px 39px;
+}
+
+.icon-linkedin {
+  display: block;
+  width: 40px;
+  height: 39px;
+  background-image: url("../static/linkedin.svg");
+  background-size: 40px 39px;
 }
 
 @media (min-width: 52em) {
