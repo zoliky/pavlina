@@ -2,7 +2,7 @@
 
 // Hamburger navigation
 const menuToggle = document.querySelector(".menu-toggle");
-const nav = menuToggle.parentElement;
+const nav = menuToggle.parentElement.parentElement;
 const menuDropdown = document.querySelector(".menu-dropdown");
 
 menuToggle.addEventListener("click", event => {
@@ -17,20 +17,3 @@ menuToggle.addEventListener("click", event => {
     menuDropdown.style.setProperty("height", "0");
   }
 });
-
-// Hide and show header
-// const header = document.querySelector(".header");
-// let lastScrollTop = 0;
-
-// window.addEventListener("scroll", event => {
-//   let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-//   if (scrollTop > lastScrollTop) {
-//     if (!nav.classList.contains("is-open")) {
-//       header.style.top = "-150px";
-//     }
-//   } else {
-//     header.style.top = "0";
-//   }
-
-//   lastScrollTop = scrollTop;
-// });

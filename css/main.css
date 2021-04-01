@@ -112,28 +112,6 @@ blockquote p {
   font-family: "Poppins", sans-serif;
 }
 
-blockquote p::before {
-  content: "“";
-  font-weight: bold;
-  font-size: 100px;
-  color: #83c1a6;
-  position: absolute;
-  top: -0.1em;
-  left: -0.6em;
-  font-family: "Georgia";
-}
-
-blockquote p::after {
-  content: "”";
-  font-weight: bold;
-  font-size: 100px;
-  color: #83c1a6;
-  position: absolute;
-  bottom: -0.9em;
-  right: 0.5em;
-  font-family: "Georgia";
-}
-
 .screen-readers {
   position: absolute;
   padding: 0;
@@ -180,8 +158,6 @@ blockquote p::after {
   width: 100%;
   z-index: 100;
   background: #fff;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
-  transition: top 0.3s linear 0s;
   display: flex;
   align-items: center;
 }
@@ -190,32 +166,20 @@ blockquote p::after {
   max-width: 1200px;
   margin: 0 auto;
   padding: 10px;
-  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  position: relative;
-}
-
-.header-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.header-social {
-  position: absolute;
 }
 
 .logo img {
-  width: 290px;
-  height: 44px;
+  width: 416px;
+  height: 55px;
 }
 
 .nav {
   background: #921801;
+  position: relative;
 }
 
 .nav-inner {
@@ -224,18 +188,12 @@ blockquote p::after {
 }
 
 .menu-toggle {
-  position: absolute;
-  right: 10px;
-  width: 40px;
-  height: 40px;
-  top: 50%;
-  transform: translateY(-50%);
+  padding: 20px;
+  display: block;
 }
 
 .hamburger {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  margin: 0 auto;
   transform: translate(-50%, -50%);
 }
 .hamburger, .hamburger::before, .hamburger::after {
@@ -273,6 +231,7 @@ blockquote p::after {
   top: 100%;
   left: 0;
   height: 0;
+  z-index: 100;
   width: 100%;
   overflow: hidden;
   background: #921801;
@@ -314,8 +273,8 @@ blockquote p::after {
 
 @media (min-width: 52em) {
   .logo img {
-    width: 336px;
-    height: 53px;
+    width: 390px;
+    height: 58px;
   }
 
   .header {
@@ -338,7 +297,7 @@ blockquote p::after {
   }
 
   .logo {
-    margin: 25px 0 5px;
+    margin: 25px 0 20px;
   }
 
   .nav-menu {

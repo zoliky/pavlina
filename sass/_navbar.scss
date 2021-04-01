@@ -1,6 +1,6 @@
 // Copyright 2021 Zoltán Király. All rights reserved.
 
-// Mobile First
+// Mobile
 $header-bg: #fff;
 $menu-item-color: #fff;
 
@@ -10,11 +10,8 @@ $menu-item-color: #fff;
   width: 100%;
   z-index: 100;
   background: $header-bg;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
-  transition: top 0.3s linear 0s;
   display: flex;
   align-items: center;
-
 }
 
 .header-container {
@@ -22,35 +19,30 @@ $menu-item-color: #fff;
   max-width: 1200px;
   margin: 0 auto;
   padding: 10px;
-  width: 100%;
+  // width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-
-  position: relative; // remove? for navbar social icons
 }
 
-.header-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.header-social {
-  position: absolute;
-}
+// .header-inner {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+// }
 
 .logo {
   img {
-    width: 290px;
-    height: 44px;
+    width: 416px;
+    height: 55px;
   }
 }
 
 .nav {
   background: #921801;
+  position: relative;
 }
 
 .nav-inner {
@@ -60,18 +52,22 @@ $menu-item-color: #fff;
 
 // Hamburger Navigation for Mobile
 .menu-toggle {
-  position: absolute;
-  right: 10px;
-  width: 40px;
-  height: 40px;
-  top: 50%;
-  transform: translateY(-50%);
+  // position: absolute;
+  // right: 10px;
+  // width: 40px;
+  // height: 40px;
+  // top: 50%;
+  // transform: translateY(-50%);
+
+  padding: 20px;
+  display: block;
 }
 
 .hamburger {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  // position: absolute;
+  // top: 50%;
+  // left: 50%;
+  margin: 0 auto;
   transform: translate(-50%, -50%);
 
   &,
@@ -120,6 +116,7 @@ $menu-item-color: #fff;
   top: 100%;
   left: 0;
   height: 0;
+  z-index: 100;
   width: 100%;
   overflow: hidden;
   background: #921801;
@@ -168,8 +165,8 @@ $menu-item-color: #fff;
 @media (min-width: 52em) {
   .logo {
     img {
-      width: 336px;
-      height: 53px;
+      width: 390px;
+      height: 58px;
     }
   }
 
@@ -195,7 +192,7 @@ $menu-item-color: #fff;
   }
 
   .logo {
-    margin: 25px 0 5px;
+    margin: 25px 0 20px;
   }
 
   .nav-menu {

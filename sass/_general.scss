@@ -114,31 +114,29 @@ blockquote p {
   font-family: 'Poppins', sans-serif;
 }
 
-blockquote p::before {
-  content: "\201C";
-  font-weight: bold;
-  font-size: 100px;
-  // color: #8bc9ae;
-  color: #83c1a6;
-  position: absolute;
-  top: -0.1em;
-  left: -0.6em;
-  font-family: "Georgia";
-}
+// blockquote p::before {
+//   content: "\201C";
+//   font-weight: bold;
+//   font-size: 100px;
+//   // color: #8bc9ae;
+//   color: #83c1a6;
+//   position: absolute;
+//   top: -0.1em;
+//   left: -0.6em;
+//   font-family: "Georgia";
+// }
 
-blockquote p::after { 
-  content: "\201D";
-  font-weight: bold;
-  font-size:100px;
-  // color:#8bc9ae;
-  color: #83c1a6;
-  position: absolute; 
-  bottom: -0.9em;
-  right: 0.5em; 
-  font-family: 'Georgia'; 
-}
+// blockquote p::after { 
+//   content: "\201D";
+//   font-weight: bold;
+//   font-size:100px;
+//   color: #83c1a6;
+//   position: absolute; 
+//   bottom: -0.9em;
+//   right: 0.5em; 
+//   font-family: 'Georgia'; 
+// }
 
-  
 .screen-readers {
   position: absolute;
   padding: 0;
