@@ -29,9 +29,9 @@ i {
 body {
   margin: 0;
   padding: 0;
-  color: #746e76;
+  color: #000;
   // background: #f6f2e7;
-  background: #f6f2ef;
+  background: #fff;
   font-family: acumin-pro, sans-serif;
 }
 
@@ -81,7 +81,7 @@ img {
 }
 
 .intro {
-  max-width: 900px;
+  max-width: 820px;
   margin: 0 auto;
 
 }
@@ -168,7 +168,7 @@ blockquote p::after {
 // iPad & Desktop 1080p+
 @media (min-width: 52em) {
   .spacer {
-    margin-top: 200px;
+    margin-top: 50px;
   }
   
   .col-left {

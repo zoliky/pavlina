@@ -1,12 +1,12 @@
 // Copyright 2021 Zoltán Király. All rights reserved.
 
 // Mobile First
-$header-bg: #921801;
+$header-bg: #fff;
 $menu-item-color: #fff;
 
 .header {
   position: relative;
-  height: 150px;
+  height: 100px;
   width: 100%;
   z-index: 100;
   background: $header-bg;
@@ -14,14 +14,6 @@ $menu-item-color: #fff;
   transition: top 0.3s linear 0s;
   display: flex;
   align-items: center;
-
-  // background-color: #921801;
-  // background-image: url("../static/strip.png");
-  // background-blend-mode: multiply;
-  // background-image:
-  // linear-gradient(180deg, rgba(146, 24, 1, .9) 90%,
-  // rgba(146, 24, 1, 1) 100%),
-  // url("../static/strip.png");
 
 }
 
@@ -55,6 +47,15 @@ $menu-item-color: #fff;
     width: 290px;
     height: 44px;
   }
+}
+
+.nav {
+  background: #921801;
+}
+
+.nav-inner {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 // Hamburger Navigation for Mobile
@@ -173,9 +174,10 @@ $menu-item-color: #fff;
   }
 
   .header {
-    position: fixed;
+    // position: fixed;
     top: 0;
   }
+
 
   .header-container {
     display: flex;
