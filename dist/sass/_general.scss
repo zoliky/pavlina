@@ -29,9 +29,9 @@ i {
 body {
   margin: 0;
   padding: 0;
-  color: #746e76;
+  color: #000;
   // background: #f6f2e7;
-  background: #f6f2ef;
+  background: #fff;
   font-family: acumin-pro, sans-serif;
 }
 
@@ -81,9 +81,16 @@ img {
 }
 
 .intro {
-  max-width: 900px;
+  max-width: 820px;
   margin: 0 auto;
 
+}
+
+// remove?
+.social-icons {
+  position: absolute;
+  top: 50px;
+  left: 150px;
 }
 
 
@@ -96,6 +103,10 @@ blockquote {
   padding-left: 0.4em;
 }
 
+blockquote cite {
+  text-align: center;
+}
+
 blockquote p {
   line-height: 1.6;
   font-size: 1.5rem;
@@ -103,31 +114,29 @@ blockquote p {
   font-family: 'Poppins', sans-serif;
 }
 
-blockquote p::before {
-  content: "\201C";
-  font-weight: bold;
-  font-size: 100px;
-  // color: #8bc9ae;
-  color: #83c1a6;
-  position: absolute;
-  top: -0.1em;
-  left: -0.6em;
-  font-family: "Georgia";
-}
+// blockquote p::before {
+//   content: "\201C";
+//   font-weight: bold;
+//   font-size: 100px;
+//   // color: #8bc9ae;
+//   color: #83c1a6;
+//   position: absolute;
+//   top: -0.1em;
+//   left: -0.6em;
+//   font-family: "Georgia";
+// }
 
-blockquote p::after { 
-  content: "\201D";
-  font-weight: bold;
-  font-size:100px;
-  // color:#8bc9ae;
-  color: #83c1a6;
-  position: absolute; 
-  bottom: -0.9em;
-  right: 0.5em; 
-  font-family: 'Georgia'; 
-}
+// blockquote p::after { 
+//   content: "\201D";
+//   font-weight: bold;
+//   font-size:100px;
+//   color: #83c1a6;
+//   position: absolute; 
+//   bottom: -0.9em;
+//   right: 0.5em; 
+//   font-family: 'Georgia'; 
+// }
 
-  
 .screen-readers {
   position: absolute;
   padding: 0;
@@ -157,7 +166,7 @@ blockquote p::after {
 // iPad & Desktop 1080p+
 @media (min-width: 52em) {
   .spacer {
-    margin-top: 200px;
+    margin-top: 50px;
   }
   
   .col-left {
