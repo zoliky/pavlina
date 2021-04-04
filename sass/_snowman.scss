@@ -13,10 +13,11 @@
 
 .row {
   display: flex;
-  // flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 
 [class*="snow-col-"] {
+  // border: 1px solid green;
   flex: 100%;
 }
 

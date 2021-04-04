@@ -396,6 +396,7 @@ blockquote p {
 
 .row {
   display: flex;
+  flex-flow: row wrap;
 }
 
 [class*=snow-col-] {
