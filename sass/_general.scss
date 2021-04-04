@@ -163,6 +163,11 @@ blockquote p {
   }
 }
 
+.front-images-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 // iPad & Desktop 1080p+
 @media (min-width: 52em) {
   .spacer {

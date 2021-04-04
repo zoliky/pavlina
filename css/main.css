@@ -137,6 +137,11 @@ blockquote p {
   font-family: acumin-pro, sans-serif;
 }
 
+.front-images-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 @media (min-width: 52em) {
   .spacer {
     margin-top: 50px;
@@ -391,7 +396,6 @@ blockquote p {
 
 .row {
   display: flex;
-  flex-flow: row wrap;
 }
 
 [class*=snow-col-] {
